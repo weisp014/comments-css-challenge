@@ -1,0 +1,51 @@
+html {
+    background-color: hsl(228, 33%, 97%);
+}
+
+.commentOneContainer {
+    display: flex;
+    background-color: white;
+    width: 650px;
+    height: 140px;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Rubik';
+    border-radius: 8px;
+}
+
+.upvotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: hsl(228, 33%, 97%);
+    color: hsl(238, 40%, 52%);
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 32px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
+#amyComment {
+    background-color: rgb(243, 129, 232);
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.profile {
+    height: 32px;
+    margin-right: 5px;
+}
+
+#amy {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.reply {
+    display: flex;
+    justify-content: flex-end;
+}
