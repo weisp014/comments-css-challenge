@@ -50,7 +50,7 @@
             alt="profile"
           />
           <div class="name">amyrobson</div>
-          <div>1 month ago</div>
+          <div class="date">1 month ago</div>
           <div class="reply">
             <img alt="reply" src="./images/icon-reply.svg" />
             Reply
@@ -79,7 +79,7 @@
             alt="profile"
           />
           <div class="name">maxblagun</div>
-          <div>2 weeks ago</div>
+          <div class="date">2 weeks ago</div>
           <div class="reply">
             <img alt="reply" src="./images/icon-reply.svg" />
             Reply
@@ -94,18 +94,70 @@
     </div>
 
     <!-- Comment #3 (Reply to comment #2) -->
-    4
-    <img src="./images/avatars/image-ramsesmiron.png" alt="profile" />
-    ramsesmiron 1 week ago @maxblagun If you're still new, I'd recommend
-    focusing on the fundamentals of HTML, CSS, and JS before considering React.
-    It's very tempting to jump ahead but lay a solid foundation first.
-
+    <div class="childOffset">
+      <div class="smallCommentContainer">
+        <div class="upvotes">
+          <img alt="plus" src="./images/icon-plus.svg" />
+          4
+          <img alt="minus" src="./images/icon-minus.svg" />
+        </div>
+        <div class="smallCommentContainer2">
+          <div class="messageTop">
+            <img
+              class="profile"
+              src="./images/avatars/image-ramsesmiron.png"
+              alt="profile"
+            />
+            <div class="name">ramsesmiron</div>
+            <div class="date">1 week ago</div>
+            <div class="reply">
+              <img alt="reply" src="./images/icon-reply.svg" />
+              Reply
+            </div>
+          </div>
+          <div class="message">
+            <span class="atSomeone">@maxblagun</span> If you're still new, I'd recommend focusing on the
+            fundamentals of HTML, CSS, and JS before considering React. It's
+            very tempting to jump ahead but lay a solid foundation first.
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Comment #4 (Reply to comment #2) -->
-    2
-    <img src="./images/avatars/image-juliusomo.png" alt="profile" />
-    juliusomo 2 days ago @ramsesmiron I couldn't agree more with this.
-    Everything moves so fast and it always seems like everyone knows the newest
-    library/framework. But the fundamentals are what stay constant.
+    <div class="childOffset">
+      <div class="smallCommentContainer">
+        <div class="upvotes">
+          <img alt="plus" src="./images/icon-plus.svg" />
+          2
+          <img alt="minus" src="./images/icon-minus.svg" />
+        </div>
+        <div class="smallCommentContainer2">
+          <div class="messageTop">
+            <img
+              class="profile"
+              src="./images/avatars/image-juliusomo.png"
+              alt="profile"
+            />
+            <div class="name">juliusomo</div>
+            <div id="you">you</div>
+            <div class="date">2 days ago</div>
+            <div class="delete">
+              <img src="./images/icon-delete.svg">
+              Delete
+            </div>
+            <div class="edit">
+              <img alt="edit" src="./images/icon-edit.svg"/>
+              Edit
+            </div>
+          </div>
+            <div class="message">
+              <span class="atSomeone">@ramsesmiron</span> I couldn't agree more with this. Everything moves so
+              fast and it always seems like everyone knows the newest
+              library/framework. But the fundamentals are what stay constant.
+            </div>
+          </div>
+        </div>
+      </div>
 
     <div class="attribution">
       Challenge adapted from

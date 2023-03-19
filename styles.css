@@ -9,13 +9,29 @@ html {
     height: 140px;
     margin: auto;
     margin-top: 20px;
-    padding: 10px;
+    padding: 20px;
     font-family: 'Rubik', sans-serif;
     border-radius: 8px;
 }
 
-.largeCommentContainer2 {
+.smallCommentContainer {
+    display: flex;
+    background-color: white;
+    width: 580px;
+    height: 140px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 8px;
+}
+
+.largeCommentContainer2, .smallCommentContainer2 {
     margin: 5px;
+}
+
+.childOffset {
+    margin-left: 100px;
 }
 
 .upvotes{
@@ -51,9 +67,32 @@ html {
     margin-right: 12px;
 }
 
+#you {
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    margin-right: 12px;
+    padding: 2px;
+    border-radius: 3px;
+}
+
 .reply {
     display: flex;
     margin-left: auto;
+    align-items: center;
+    color: hsl(238, 40%, 52%);
+}
+
+.delete {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    color: hsl(358, 79%, 66%);
+}
+
+.edit {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
     color: hsl(238, 40%, 52%);
 }
 
@@ -61,4 +100,13 @@ html {
     color: hsl(211, 10%, 45%);
     margin-top: 12px;
     line-height: 1.5em;
+}
+
+.atSomeone {
+    color: hsl(238, 40%, 52%);
+    font-weight: bold;
+}
+
+.date {
+    color: hsl(211, 10%, 45%);
 }
