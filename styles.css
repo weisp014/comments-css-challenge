@@ -2,6 +2,11 @@ html {
     background-color: hsl(228, 33%, 97%);
 }
 
+.b:hover {
+    color: hsl(238, 40%, 52%);
+    cursor: pointer;
+}
+
 .largeCommentContainer {
     display: flex;
     background-color: white;
@@ -82,10 +87,17 @@ html {
 #sendBtn {
     display: flex;
     margin-bottom: auto;
+    justify-content: center;
     border-radius: 5px;
     background-color: hsl(238, 40%, 52%);
     color: white;
     padding: 10px;
+    width: 80px;
+}
+
+#sendBtn:hover {
+    background-color: hsl(239, 57%, 85%);
+    cursor: pointer;
 }
 
 .name {
@@ -108,6 +120,12 @@ html {
     color: hsl(238, 40%, 52%);
 }
 
+.reply:hover {
+    color: hsl(239, 57%, 85%);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
 .delete {
     display: flex;
     margin-left: auto;
@@ -115,11 +133,23 @@ html {
     color: hsl(358, 79%, 66%);
 }
 
+.delete:hover {
+    color: hsl(357, 100%, 86%);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
 .edit {
     display: flex;
     margin-left: 20px;
     align-items: center;
     color: hsl(238, 40%, 52%);
+}
+
+.edit:hover {
+    color: hsl(239, 57%, 85%);
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .message {
@@ -138,16 +168,17 @@ html {
 }
 
 #newComment {
-    /* display: flex; */
-}
-
-form {
-    /* display: flex; */
+    display: flex;
     border-style: solid;
     border-width: 1px;
     border-radius: 8px;
     border-color: hsl(211, 10%, 45%);
-    color: hsl(228, 33%, 97%);
-    width: 500px;
+    color: hsl(211, 10%, 45%);
+    width: 450px;
     padding: 20px;
+    line-height: 1.5em;
+}
+
+#newComment:hover {
+    cursor: pointer;
 }
